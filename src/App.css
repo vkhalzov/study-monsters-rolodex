@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.content {
+  min-height: calc(100vh - 280px);
+}
+
+h1 {
+  font-family: 'Bigelow Rules';
+  font-size: 72px;
+  color: #0ccac4;
+}
+
+.footer {
+  height: 50px;
+}
+
+.footer a {
+  font-family: 'Bigelow Rules';
+  color: #0ccac4;
+  font-size: 32px;
+}
