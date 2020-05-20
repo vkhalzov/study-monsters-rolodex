@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CartList} from "./components/card-list/card-list.component";
+import { CardList } from "./components/card-list/card-list.component";
 import SearchBox from "./components/search-box/search-box.component";
 import './App.css';
 
@@ -44,7 +44,7 @@ class App extends Component {
         </header>
         <div className="content">
           <SearchBox placeHolder="Search monsters" handleChange={this.handleChange} />
-          <CartList monsters={this.getFilteredMonsters()} />
+          <CardList monsters={this.getFilteredMonsters()} />
         </div>
         <footer className="footer">
           <a href="https://github.com/vkhalzov/study-monsters-rolodex">Github Repo</a>
